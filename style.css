@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+   margin: 0;
+   background-image: url("image/bgwibu.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   width: 100%;
+}
+.kontenprofil{
+    margin-left: 250px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin-top: 90px;
+    font-size: 16;
+}
+
+
+.kontenprofil p{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-shadow: 3px 3px 4px black, 0 0 25px rgb(36, 36, 37), 0 0 5px rgb(26, 26, 27);
+    font-size: 19;
+
+}
+
+.kepala{ 
+   margin-left: 250px;
+    text-align: center;
+    font-family: Rubik;
+    color: rgb(252, 247, 247);
+    padding: 10px 30px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.sidebar{
+   position: fixed;
+   width: 250px;
+   top:0;
+   left: 0;
+   bottom: 0;
+   background: #111;
+   padding-top: 50px;
+}
+
+.sidebar h1{
+   display: block;
+   padding: 10px 20px;
+   color: #fff;
+   text-decoration: none;
+   font-family: "Rubik";
+   letter-spacing: 2px;
+   font-weight: 400;
+   margin: 0;
+   font-size: 25px;
+   text-transform: uppercase;
+}
+
+.sidebar a{
+   display: block;
+   padding: 10px 20px;
+   color: #bbb;
+   text-decoration: none;
+   font-family: "Rubik";
+   letter-spacing: 2px;
+}
+
+.sidebar a:hover{
+   color: #fff;
+   margin-left: 20px;
+   transition: 0.4s;
+}
+
+
+.jadwalkul {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   margin-top: 90px;
+   margin-left: 745px;
+ }
+ 
+ .jadwalkul td, .jadwalkul th {
+   border: 1px solid #ddd;
+   padding: 8px;
+ }
+ 
+ .jadwalkul tr{
+   background-color: white;
+ }
+ .jadwalkul tr:nth-child(even){background-color: #f2f2f2;}
+ 
+ .jadwalkul tr:hover {background-color: rgb(89, 128, 214);}
+ 
+ .jadwalkul th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: center;
+   background-color: #5e5383;
+   color: white;
+ }
+
+ a :link, a:visited{
+   background-color: #f44336;
+   color: white;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+ }
+
+ a:hover, a:active {
+    background-color: rgb(106, 119, 238);
+ }
